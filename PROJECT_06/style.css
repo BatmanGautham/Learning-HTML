@@ -1,0 +1,183 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 7px 16px;
+
+    color: rgba(0, 0, 0, 0.559);
+
+    font-family: 'Pacifico',cursive;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    font-weight: 100;
+}
+h1:hover
+{
+ color:mediumseagreen;
+}
+
+
+#intro
+{
+ color:rgba(223, 203, 203, 0.664);
+
+ text-shadow: 2px 5px 26px;
+ text-align: center;
+ 
+ font-size: 60px;
+
+ text-orientation: relative; 
+
+ background-image:url('https://t4.ftcdn.net/jpg/02/32/48/35/360_F_232483527_B9KZazS7LsGexMg0icM1gUNghIcqJDvL.jpg') ;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-blend-mode: color-burn;
+
+ background-size: 80% 120%;
+
+
+ padding: 100px;
+}
+
+
+h2
+{
+ text-align: center;
+ text-shadow: 2px 7px 23px;
+
+ color: rgba(0, 0, 0, 0.664);
+
+ font-family: 'Pacifico',cursive;
+ font-size: 45px;
+
+ margin-top: 50px;
+ margin-bottom: 30px;
+
+ border-bottom: 5px  dotted #000;
+
+ padding-bottom: 1px;
+}
+h2:hover
+{
+ color:mediumseagreen;
+}
+
+.name
+{
+ text-shadow: 2px 7px 13px;
+ text-underline-offset: 0.5em;
+
+ color: rgba(0, 0, 0, 0.664);
+   
+ font-family: 'Pacifico',cursive;
+ font-size: 30px;
+}
+
+.PizzaCard
+{
+  padding-top: 30px;
+
+  text-align: center;
+
+  line-height: 2;
+
+  background-color: chocolate;
+
+  border-radius: 20px;
+
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+#pizzapic
+{
+ display:block;
+ margin: 0 auto;
+ padding: 20px;
+
+ border: 10px solid blanchedalmond;
+ border-radius: 20px;
+
+ background-color: chocolate;
+
+ width: 740px;
+}
+
+
+
+.GulabJamunCard
+{
+  padding-top: 30px;
+
+  text-align: center;
+
+  line-height: 2;
+
+  background-color: crimson;
+
+  border-radius: 20px;
+
+  width: 800px;
+
+  margin: 0 auto;
+}
+
+#gulabpic
+{
+ display:block;
+ margin: 0 auto;
+ padding: 20px;
+
+ border: 10px solid blanchedalmond;
+ border-radius: 20px;
+
+ background-color: crimson;
+
+ width: 740px;
+}
+
+
+.headings
+{
+  font-size: 20px;
+  font-family: 'Dancing Script',cursive;
+}
+
+.data
+{
+  font-family: 'Great vibes',cursive;
+}
+
+
+body
+{
+ background-color: #e4a59858;
+}
+
+
+#end 
+{
+  background-image: url('https://wallpaperxyz.com/wp-content/uploads/Flat-Wallpaper-Full-HD-Free-Download-for-Laptop-Desktop-Macbook-0808-Wallpaperxyz.com-34.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-blend-mode: color-burn;
+
+
+  
+  padding-block: 20%;
+
+  font-size: 80px;
+
+  text-align: center;
+  text-shadow: 2px 5px 26px;
+  color: rgba(223, 203, 203, 0.804);
+
+  margin-bottom: 0;
+}
+
+
+

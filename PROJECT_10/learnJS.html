@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JS</title>
+</head>
+
+<body>
+    <h1>Lets Learn Some JS</h1>
+
+    <p>Go to Inspect<br>Go to Console<br>Now Click the button</p>
+    <button onclick="show()">Click me</button>
+
+    <script>
+        function show()
+        {
+            console.log("Hello World!")
+        }
+    </script>
+
+    <br><br><hr>
+
+    <h3>Lets Find Sum!</h3>
+
+    <button onclick="showsum()">8 + 6 =</button>
+    <script>
+        function showsum()
+        {
+            console.log("\nSum of 8 and 6 is : "+(8+6))
+        }
+    </script>
+
+    &nbsp;&nbsp;
+
+    <button onclick="showsum2()">7 + 6 =</button>
+    <script>
+        function showsum2()
+        {
+            var num1 = 7
+            var num2 = 6
+
+            console.log("\nSum of 7 and 8 is "+(num1+num2))
+
+            var res = num1+num2
+            console.log("7 + 8 = "+res)
+        }
+    </script>
+
+    <br><br><hr>
+
+    <h3>Odd or Even</h3>
+    <p>Click the numbers to check if they are odd or even : </p>
+
+    <button onclick="Odd_Even(4)">4</button>
+    <button onclick="Odd_Even(7)">7</button>
+    <button onclick="Odd_Even(5)">5</button>
+    <button onclick="Odd_Even(8)">8</button>
+    <button onclick="Odd_Even(0)">0</button>
+    <button onclick="Odd_Even(36)">36</button>
+    <button onclick="Odd_Even(77)">77</button>
+
+
+    <script>
+
+        function Odd_Even(x)
+        {
+            if(x%2 == 0)
+            {
+                console.log(x+" is Even!")
+            }
+            else
+            {
+                console.log(x+" is Odd!")
+            }
+        }
+
+    </script>
+
+    <br><br><hr>
+
+    <h3>Fibonacci numbers</h3>
+
+    <button onclick="PrintFibonacci(5)">First 5 Fibonacci numbers </button>
+
+    <button onclick="PrintFibonacci(8)">First 8 Fibonacci numbers </button>
+
+    <script>
+        function PrintFibonacci(x)
+        {
+            var a=0
+            var b=1
+
+            var c=0
+
+            console.log("\nFirst "+x+" : \n")
+
+            console.log(a)
+            console.log(b)
+
+            for(var i=0;i<x-2;i++)
+            {
+                c=a+b
+                console.log(c)
+
+                a=b
+                b=c            
+            }
+        }
+    </script>
+    <hr>
+    
+    <h3>Array</h3>
+    <button onclick="ViewArray()">View the Array</button>
+    <script>
+        function ViewArray()
+        {
+          var array=["Apple","Mango",10,20];
+
+          console.log(array);
+
+          for(var i=0;i<4;i++)
+          {
+            console.log(array[i]);
+          }
+        }
+    </script>
+
+    <hr>
+
+    <h3>Object</h3>
+    <button onclick="ViewObject()">View Batman Object</button>
+    <script>
+      function ViewObject()
+      {
+        var batman={
+                    Name: "Batman (Bruce Wayne)",
+                    Occupation: "Vigilante, billionaire philanthropist",
+                    Aliases: "The Dark Knight, Caped Crusader",
+                    Origin: "Gotham City", 
+                   }
+        
+        console.log(batman);
+
+        console.log("\n\nI am "+batman.Name);
+      }
+    </script>
+
+    <hr>
+
+    <h3>Object Array</h3>
+    <button onclick="ViewObjectArray()">View Object Array</button>
+    <script>
+        function ViewObjectArray()
+        {
+            var BatmanBruce=[
+                             {
+                                Name: "Batman",
+                                Occupation: "Vigilante, billionaire philanthropist",
+                                Origin: "Gotham City"
+                             },
+                             {
+                                Name: "Bruce Wayne",
+                                Occupation: "Billionaire philanthropist",
+                                Origin: "Gotham City"
+                             }
+                            ]
+       
+         console.log(BatmanBruce);
+
+         console.log("Owner of the hotel : "+BatmanBruce[0].Name);
+
+         console.log("Batmobile Registered name : "+BatmanBruce[1].Name+"\nPlace:"+BatmanBruce[1].Origin)
+        }
+
+    </script>
+
+</body>
+</html>

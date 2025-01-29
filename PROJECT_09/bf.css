@@ -1,0 +1,345 @@
+body
+{
+    margin: 0;
+
+    font-family:cursive ;
+
+    overflow-x: hidden;
+}
+
+.header
+{
+    background: slateblue;
+    width: 100%;
+    height: 125px;
+}
+
+.logo
+{
+    width: 50%;
+
+    padding: 22.5px;
+
+    float: left;
+}
+
+.logo a
+{
+    color: aliceblue;
+
+    font-size: 45px;
+    font-family: verdana;
+    font-weight: bold;
+    
+    text-decoration: none;
+
+    margin: 130px;
+}
+
+
+
+.login
+{
+    float: left;
+
+    padding-top: 8px;
+    padding-left: 130px;
+}
+
+.loginlabel
+{
+    color: aliceblue;
+
+    font-size: 18px;
+}
+
+.loginform table
+{
+    border-spacing: 18px 0px;
+}
+
+
+#submitbutton input
+{
+    color: blue;
+
+    border-color: slateblue;
+    border-style: solid;
+
+    height: 35px;
+    font-family: verdana;
+    font-size: 20px;
+
+    transition-duration: 0.3s;
+}
+
+#submitbutton input:hover
+{
+    color: deepskyblue;
+    transform: scale(1.1);
+}
+
+
+
+#forgotlink a
+{
+    color: aliceblue;
+
+    text-decoration:none;
+
+    transition-duration:1s ;
+}
+
+#forgotlink a:hover
+{
+    text-decoration:underline;
+}
+
+
+.mainbody
+{
+    height: 645px;
+    width: auto;
+
+    background: linear-gradient(30deg, black,slateblue,grey,white);
+    
+}
+
+.msg
+{
+    color: aliceblue;
+
+    padding-left: 40px;
+}
+
+.leftbody
+{
+    width: 50%;
+
+    float: left;
+}
+
+.rightbody
+{
+    width: 30%;
+
+    float: left;
+
+    padding-top: 45px;
+    padding-left: 200px;
+}
+
+
+.leftimage
+{
+    width: 745px;
+    height: 625px;
+
+    padding: 15px;
+    padding-left: 32px;
+
+    mix-blend-mode: screen;
+
+    border-radius: 8%;
+
+    box-shadow: 0px 20px 20px;
+
+    transition-duration: 0.9s;
+}
+
+.leftimage:hover
+{
+    mix-blend-mode: multiply;
+
+    transform: scale(1.08);
+}
+
+
+.createmsg
+{
+    font-size: 26px;
+}
+
+
+.FN
+{
+    float: left;
+}
+
+.FN input
+{
+    font-size: 16px;
+}
+
+.SN
+{
+    float:left;
+    padding-left: 20px;
+}
+
+.SN input
+{
+    font-size: 16px;
+}
+
+
+.EorM
+{
+    float: left;
+    padding-top: 20px;
+}
+
+.EorM input
+{
+    font-size: 16px;
+
+    width: 418px;
+}
+
+.passmsg
+{
+    float: left;
+    padding-top: 20px;
+}
+
+.passmsg input
+{
+    font-size: 16px;
+
+    width: 418px;
+}
+
+
+.msgin
+{
+    float: left; 
+
+    width: 100%;
+    height: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+
+    color: white;
+
+    padding-top: 20px;
+}
+.datein
+{    
+    float: left;
+    padding-top: 5px;
+}
+
+.datein input
+{
+    font-size: 19px;
+
+    color: grey;
+
+    border: 0;
+    border-radius: 10px;
+
+    box-shadow: 8px 4px 20px black;
+
+    letter-spacing: 3px;
+}
+
+.datein input:hover
+{
+    color: black;
+}
+
+
+
+.gen
+{
+    float: left;
+    width: 100%;
+
+    color: whitesmoke;
+}
+
+.gen:hover
+{
+    color: black;
+}
+
+
+
+.signup
+{
+    float: left;
+    width: 100%;
+
+    padding-top: 25px;
+}
+
+.signup input
+{
+    font-size: 28px;
+
+    color: whitesmoke;
+
+    background: linear-gradient(35deg,slateblue,green,grey);
+
+    border: solid;
+    border-radius: 8px;
+    border-color: green;
+
+    letter-spacing: 2px;
+
+    transition-duration: 0.5s;
+
+}
+
+.signup input:hover
+{
+    color: white;
+    background: deepskyblue;
+
+    transform: scale(1.08);
+}
+
+
+.footer
+{
+    width: 100%;
+    height: auto;
+
+    float :left;
+
+    padding-left: 980px;
+}
+
+.footcontent a
+{
+    color:indigo;
+
+    text-decoration: none;
+
+    transition-duration: 0.4s;
+}
+
+#au:hover
+{
+    color: skyblue;
+}
+
+#tou
+{
+    padding: 100px;
+}
+
+#tou:hover
+{
+    color: skyblue;
+}
+
+#pp:hover
+{
+    color: skyblue;
+}
+
+
+

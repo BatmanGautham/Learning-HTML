@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID_Card</title>
+</head>
+
+<body>
+    <h2>Enter Details</h2>
+    <input type="text" placeholder="First name" id="FN">
+
+    <input type="text" placeholder="Last name" id="LN"><br><br>
+
+    <input type="Text" placeholder="Age" id="age"><br><br>
+
+    <input type="text" placeholder="Phone Number" id="num">
+
+    <button onclick="displayID()">SAVE</button>
+
+
+    <h2>ID CARD</h2>
+
+    <h3 id="displayFN"></h3>
+    <h3 id="displayLN"></h3>
+    <h3 id="displayage"></h3>
+    <h3 id="displaynum"></h3>
+
+    <script>
+        function displayID()
+        {
+            var Firstname=document.getElementById("FN").value 
+            document.getElementById("displayFN").innerHTML=Firstname
+
+            var Lastname=document.getElementById("LN").value
+            document.getElementById("displayLN").innerHTML=Lastname
+
+            var AgeV=document.getElementById("age").value
+            document.getElementById("displayage").innerHTML=AgeV
+            
+            var number=document.getElementById("num").value
+            document.getElementById("displaynum").innerHTML=number
+
+            alertmsg="Generate ID CARD!"
+
+            alert(alertmsg)
+
+            if(Firstname==""||Lastname==""||AgeV==""||number=="")
+             {
+                alert("Please fill all the fields!")
+             }
+        }
+    </script>
+
+</body>
+</html>
